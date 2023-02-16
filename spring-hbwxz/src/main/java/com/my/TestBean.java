@@ -1,7 +1,10 @@
-package BeanTest;
+package com.my;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class TestBean {
-	private String name = "hello world";
+	private String name = "hello world!!!";
 	public TestBean() {
 	}
 	public TestBean(String name) {
